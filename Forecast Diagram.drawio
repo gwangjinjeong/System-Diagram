@@ -1,6 +1,6 @@
-<mxfile modified="2022-07-11T06:04:27.396Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8vSRjX6ESCfR0xbo9nW7" version="20.0.4" type="github" pages="3">
+<mxfile modified="2022-07-11T06:48:39.312Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="sDNcpm3O1ilfC9OAOYG3" version="20.0.4" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="As-Is">
-    <mxGraphModel dx="2507" dy="1346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2071" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -247,46 +247,46 @@
           <mxGeometry width="555.5" height="550" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-36" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="18.5" y="12.382739212007504" width="40" height="39.21200750469043" as="geometry" />
+          <mxGeometry x="17" y="12.382739212007504" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-37" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
           <mxGeometry x="17" y="122.57607879924953" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-38" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="17" y="209.99630393996247" width="40" height="39.21200750469043" as="geometry" />
+          <mxGeometry x="17" y="197" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-39" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="17" y="278.4146341463415" width="40" height="39.21200750469043" as="geometry" />
+          <mxGeometry x="17" y="271" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-40" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="17" y="354.7748592870544" width="40" height="39.21200750469043" as="geometry" />
+          <mxGeometry x="17" y="345" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-41" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="19.5" y="430.1031894934334" width="40" height="39.21200750469043" as="geometry" />
+          <mxGeometry x="17" y="419" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-42" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="19" y="493.61341463414635" width="40" height="39.21200750469043" as="geometry" />
+          <mxGeometry x="17" y="493.61341463414635" width="40" height="39.21200750469043" as="geometry" />
         </mxCell>
-        <mxCell id="SCVMTBWpLvtzJIhz15lM-6" value="EventBridge&lt;span&gt;: 매일 오후 6시 4개의 Lambda 실행&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;1st Lambda: 18:00 Window EC2 서버를 켜는 일 수행&lt;/span&gt;&lt;/li&gt;&lt;li&gt;2nd Lambda: 18:15 Window EC2 서버를 끄는 일 수행&lt;/li&gt;&lt;li&gt;3rd Lambda: Investing 주가 데이터 수집 수행&lt;/li&gt;&lt;li&gt;4th Lambda: WeatherOnlineAPI를 통한 데이터 수집 수행&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="70" y="12.382739212007504" width="449" height="101.12570356472796" as="geometry" />
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-6" value="EventBridge를 통해&lt;span&gt;&amp;nbsp;매일 오후 6시 4개의 Lambda 실행하는 스케줄링 수행&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;1st Lambda: 18:00 윈도우EC2 서버를 켜는 일 수행&lt;/span&gt;&lt;/li&gt;&lt;li&gt;2nd Lambda: 18:15 윈도우 EC2 서버를 끄는 일 수행&lt;/li&gt;&lt;li&gt;3rd Lambda: Investing 주가 데이터 수집 수행&lt;/li&gt;&lt;li&gt;4th Lambda: WeatherOnlineAPI를 통한 데이터 수집 수행&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
+          <mxGeometry x="70" y="12.38" width="480" height="101.13" as="geometry" />
         </mxCell>
-        <mxCell id="SCVMTBWpLvtzJIhz15lM-7" value="Window EC2: Git으로 코드 업데이트 후 ReutersAPI를 통한 데이터 수집 수행&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;※ 제약조건:&amp;nbsp; ReutersAPI를 사용하기 위해선 &lt;b&gt;Eikon 프로그램 &lt;/b&gt;실행 필요&lt;br&gt;※&amp;nbsp;&lt;b&gt;Eikon 프로그램&lt;/b&gt;:&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1) VPN역할 수행 2)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;권장사양: t3a.large(RAM 8GB)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="69" y="119.99634146341464" width="486.5" height="61.39774859287054" as="geometry" />
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-7" value="윈도우 EC2를 통해 Eikon 프로그램 실행 후 ReuterAPI를 통한 데이터 수집&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;※&amp;nbsp;&lt;b&gt;Eikon 프로그램&lt;/b&gt;:&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1) VPN역할 수행 2)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;권장사양: t3a.large(RAM 8GB)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
+          <mxGeometry x="69" y="120" width="486.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SCVMTBWpLvtzJIhz15lM-9" value="&lt;span&gt;수요 예측 모델 생성을 위한 주가, 날씨 데이터 세트를 결합한&amp;nbsp;&lt;/span&gt;새로운 Dataset 생성" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="69" y="211.02819887429644" width="450" height="41.27579737335835" as="geometry" />
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-9" value="&lt;span&gt;AI 예측 모델 생성을 위한 주가, 날씨 데이터 세트를 결합한&amp;nbsp;&lt;/span&gt;Dataset 생성" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
+          <mxGeometry x="71.75" y="197" width="481" height="41.28" as="geometry" />
         </mxCell>
-        <mxCell id="SCVMTBWpLvtzJIhz15lM-10" value="모니터링시, Historical Data와 Forcast Data 시각화를 위한 Data Query" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="69" y="276.86679174484055" width="450" height="40.75984990619137" as="geometry" />
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-10" value="시각화에 일부 사용될 Historical 데이터를 추출하기 위한 Athena 사용" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
+          <mxGeometry x="70" y="270.99679174484055" width="450" height="40.75984990619137" as="geometry" />
         </mxCell>
-        <mxCell id="SCVMTBWpLvtzJIhz15lM-11" value="S3내 데이터를 가지고 와서 WAI 모델링 코드에 따른 모델 학습하고&amp;nbsp;&lt;br&gt;Model Checkpoint를 S3에 저장" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="68.5" y="352.1951219512195" width="449" height="40.75984990619137" as="geometry" />
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-11" value="S3내 데이터셋으로 AI 모델링 후&amp;nbsp;Model Checkpoint를 별도의 S3에 저장" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
+          <mxGeometry x="71.75" y="344.9951219512195" width="449" height="40.75984990619137" as="geometry" />
         </mxCell>
-        <mxCell id="SCVMTBWpLvtzJIhz15lM-13" value="&lt;span&gt;Forecasting Result Data와 Historical Data를 S3에 담고&lt;br&gt;이를 End User에게 QuickSight를 통한 시각화&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
-          <mxGeometry x="70" y="490.00178236397744" width="449" height="40.75984990619137" as="geometry" />
+        <mxCell id="SCVMTBWpLvtzJIhz15lM-13" value="&lt;span&gt;Forecasting Result Data와 Historical Data를 S3에 담고 이를 User에게 QuickSight를 통한 시각화 수행&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="CtUr043-NP_PtcqY4t4r-3" vertex="1">
+          <mxGeometry x="70" y="492.8417823639774" width="449" height="40.75984990619137" as="geometry" />
         </mxCell>
-        <mxCell id="CtUr043-NP_PtcqY4t4r-2" value="여러 모델 중 챔피언 Model을 배포하여 예측 결과를 S3로 보냄" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="CtUr043-NP_PtcqY4t4r-3">
-          <mxGeometry x="68.5" y="430.1031894934334" width="449" height="40.75984990619137" as="geometry" />
+        <mxCell id="CtUr043-NP_PtcqY4t4r-2" value="여러 모델 중 가장 적절한 Model을 배포하여 예측 결과를 S3로 보냄" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="CtUr043-NP_PtcqY4t4r-3">
+          <mxGeometry x="71.75" y="419.00318949343335" width="449" height="40.75984990619137" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
