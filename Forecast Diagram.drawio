@@ -1,4 +1,4 @@
-<mxfile modified="2022-10-14T04:35:15.420Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4xelTRIuNE0lkOVmTiuk" version="20.4.0" type="github" pages="2">
+<mxfile modified="2022-10-14T04:40:35.700Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="133iCJIb3xoPgjW_3-sM" version="20.4.0" type="github" pages="2">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="As-Is">
     <mxGraphModel dx="2062" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -302,7 +302,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ji4KComlpWZDG8OQrK-k" name="To-Be">
-    <mxGraphModel dx="2382" dy="1279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -407,7 +407,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T91nCbCrqW1TpRlBHmb8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vA_3_BBL_oBBo2qa8ZQJ-55" source="T91nCbCrqW1TpRlBHmb8-2" target="lYALslR_YEQzHMSZbE-U-24">
+        <mxCell id="T91nCbCrqW1TpRlBHmb8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="vA_3_BBL_oBBo2qa8ZQJ-55" source="T91nCbCrqW1TpRlBHmb8-2" target="lYALslR_YEQzHMSZbE-U-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T91nCbCrqW1TpRlBHmb8-5" value="데이터 추출" style="swimlane;startSize=40;fontSize=16;" vertex="1" parent="vA_3_BBL_oBBo2qa8ZQJ-55">
@@ -622,7 +622,7 @@
         <mxCell id="yIMYqZqMqfdwCuKRlsVO-15" value="모델 배포 전 QuickSight를 통해서 Model registry에서 실제값과 예측값 비교하여 &lt;br&gt;데이터 사이언티스트, 비즈니스 담당자가 Approve 버튼 클릭시 Deploy 됨" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="yIMYqZqMqfdwCuKRlsVO-1" vertex="1">
           <mxGeometry x="70" y="492.84" width="480" height="40.76" as="geometry" />
         </mxCell>
-        <mxCell id="yIMYqZqMqfdwCuKRlsVO-16" value="모델 검증을 위해 학습된 여러 모델 중 사용자가 설정한 Threshold가 넘는 모델만 Model Registry 저장.&lt;br&gt;model-valid 폴더 내 yyyymmddts 폴더 내 Model(.h5), Output 데이터 저장." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="yIMYqZqMqfdwCuKRlsVO-1" vertex="1">
+        <mxCell id="yIMYqZqMqfdwCuKRlsVO-16" value="모델 검증을 위해 학습된 여러 모델의 Metrics 중 사용자가 설정한 일정 Threshold가 넘는 모델만 Model Registry 저장.&lt;br&gt;(ex, if 모델MAPE &amp;lt; 0.1 then register model)&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="yIMYqZqMqfdwCuKRlsVO-1" vertex="1">
           <mxGeometry x="71.75" y="419" width="478.25" height="61" as="geometry" />
         </mxCell>
         <mxCell id="b1OWqp67rQSmJ0K2vqaw-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
