@@ -1,6 +1,6 @@
-<mxfile modified="2022-10-17T07:58:13.828Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ejkK16OK5ixIbgpjiUQj" version="20.4.0" type="github">
+<mxfile modified="2022-10-17T08:14:33.022Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5bpnAmuxJJMlXl7kwwiO" version="20.4.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="As-Is">
-    <mxGraphModel dx="2382" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3403" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,6 +79,9 @@
         <mxCell id="5yS98mvfxcx_hgTfGWl0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1dBTJliTiQG94aDny_BC-61" source="CtUr043-NP_PtcqY4t4r-4" target="1dBTJliTiQG94aDny_BC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fDPqptrDir9NB2lIaO5J-1" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="1dBTJliTiQG94aDny_BC-61">
+          <mxGeometry x="446" y="190" width="40" height="38" as="geometry" />
+        </mxCell>
         <mxCell id="dCYjzD_zUEwOEs_KfjNQ-34" value="모델 배포 및 서비스" style="swimlane;startSize=40;fontSize=16;align=center;verticalAlign=middle;" parent="1dBTJliTiQG94aDny_BC-19" vertex="1">
           <mxGeometry x="1660" y="30" width="250" height="570" as="geometry">
             <mxRectangle x="731" y="30" width="120" height="30" as="alternateBounds" />
@@ -113,7 +116,7 @@
             <mxRectangle x="731" y="30" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FTdMu0rv-jqPg10kDiAU-12" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="FTdMu0rv-jqPg10kDiAU-1" vertex="1">
+        <mxCell id="FTdMu0rv-jqPg10kDiAU-12" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="FTdMu0rv-jqPg10kDiAU-1" vertex="1">
           <mxGeometry x="1" y="42" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="dCYjzD_zUEwOEs_KfjNQ-3" value="모델링 및 모델 검증" style="swimlane;startSize=40;fontSize=16;strokeColor=#000000;" parent="1dBTJliTiQG94aDny_BC-19" vertex="1">
@@ -187,12 +190,18 @@
         <mxCell id="5yS98mvfxcx_hgTfGWl0-687" value="10 days" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=6;fontFamily=Helvetica;" vertex="1" parent="5yS98mvfxcx_hgTfGWl0-152">
           <mxGeometry x="218.49999999999977" y="140.06999999999994" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="fDPqptrDir9NB2lIaO5J-2" value="5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="5yS98mvfxcx_hgTfGWl0-152">
+          <mxGeometry x="577" y="-21" width="40" height="38" as="geometry" />
+        </mxCell>
         <mxCell id="5yS98mvfxcx_hgTfGWl0-251" value="매월 1&#xa;일 수행" style="swimlane;direction=north;whiteSpace=wrap;" vertex="1" parent="dCYjzD_zUEwOEs_KfjNQ-3">
           <mxGeometry x="-480" y="239" width="921" height="331" as="geometry">
             <mxRectangle x="87" y="239" width="80" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6hlHMrz7loX8VQzPJCg0-1" value="Update: 2022-10-07" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="fDPqptrDir9NB2lIaO5J-3" value="6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="dCYjzD_zUEwOEs_KfjNQ-3">
+          <mxGeometry x="347" y="19.999999999999986" width="40" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="6hlHMrz7loX8VQzPJCg0-1" value="Update: 2022-10-17" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="330" y="76.5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CtUr043-NP_PtcqY4t4r-3" value="" style="group" parent="1" vertex="1" connectable="0">
