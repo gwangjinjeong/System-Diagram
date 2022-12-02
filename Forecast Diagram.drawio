@@ -1,6 +1,6 @@
-<mxfile modified="2022-12-01T23:54:22.594Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="diU93D3ch3q68a827zEl" version="20.6.0" type="github" pages="3">
+<mxfile modified="2022-12-02T00:10:03.556Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UDofSFQR-bVQk5dTdDX1" version="20.6.0" type="github" pages="3">
   <diagram id="_ncYP8lrsUd9Hia-P4ZR" name="WAI Architecture">
-    <mxGraphModel dx="2370" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,11 +59,8 @@
         <mxCell id="kqmbkUOljX83greQ5X14-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.velog.io/images/galaxy/post/b501f325-1810-4e26-962e-e66ca0b94ca9/image.png;" parent="kqmbkUOljX83greQ5X14-24" vertex="1">
           <mxGeometry x="20" y="41.26" width="169.2" height="88.74" as="geometry" />
         </mxCell>
-        <mxCell id="kqmbkUOljX83greQ5X14-26" value="Database Tier" style="swimlane;fontFamily=Tahoma;fontSize=8;" parent="kqmbkUOljX83greQ5X14-19" vertex="1">
-          <mxGeometry x="17" y="400" width="213" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="kqmbkUOljX83greQ5X14-27" value="AWS RDS&lt;br&gt;PostgreSQL" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds_on_vmware;" parent="kqmbkUOljX83greQ5X14-26" vertex="1">
-          <mxGeometry x="69" y="34.84" width="78" height="78" as="geometry" />
+        <mxCell id="sX1N6BWLLxhWYm_5iFF9-2" value="EC2 instance :&lt;br&gt;: Database Tier" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_ec2_instance_contents;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=0;fontFamily=Tahoma;" vertex="1" parent="kqmbkUOljX83greQ5X14-19">
+          <mxGeometry x="17" y="400" width="213" height="130" as="geometry" />
         </mxCell>
         <mxCell id="kqmbkUOljX83greQ5X14-28" value="데이터 정제" style="swimlane;startSize=40;fontSize=16;" parent="kqmbkUOljX83greQ5X14-4" vertex="1">
           <mxGeometry x="331" y="30" width="530" height="570" as="geometry">
@@ -924,6 +921,9 @@
             <mxPoint x="1333" y="715.56" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sX1N6BWLLxhWYm_5iFF9-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.ovhcloud.com/sites/default/files/styles/large_screens_1x/public/2021-09/ECX-1909_Hero_PostgreSQL_600x400%402x.png;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="637.59" width="199" height="59.37" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1230,7 +1230,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ji4KComlpWZDG8OQrK-k" name="To-Be">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2188" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
