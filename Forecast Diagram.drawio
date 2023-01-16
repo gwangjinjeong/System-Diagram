@@ -1,6 +1,6 @@
-<mxfile modified="2022-12-29T03:23:55.082Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ordvmiLa5EzC6Fvuownl" version="20.6.0" type="github" pages="6">
+<mxfile modified="2023-01-16T02:39:53.297Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="D9VAy92GTS-AOpA3fOzl" version="20.8.5" type="github" pages="7">
   <diagram id="_ncYP8lrsUd9Hia-P4ZR" name="WAI Architecture">
-    <mxGraphModel dx="1666" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1762,7 +1762,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lQ22Jo9CMrFUgIWEmOcI" name="모델 검증 로직">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1844,7 +1844,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cucz1m6EiLb04llPbBQN-1" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h9k7tb1a-ADjd-qjguZs-9">
+        <mxCell id="cucz1m6EiLb04llPbBQN-1" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="h9k7tb1a-ADjd-qjguZs-9" vertex="1">
           <mxGeometry x="189" y="432" width="59.25" height="39.5" as="geometry" />
         </mxCell>
         <mxCell id="h9k7tb1a-ADjd-qjguZs-16" value="모델 배포" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
@@ -1960,7 +1960,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xYE0YjqShb2SkLe1fmaN" name="목적별 나누기">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2162,6 +2162,199 @@
               <mxPoint x="1020" y="758" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7t3vbvwS_3jYVmImmIfu" name="Prediction Flow">
+    <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="irhjJahr-Im-_dVMvANn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="g_l5ZjlfF0vqQ1cvAvLb-1" target="qSXccvpsXnpCGZwrg0YW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_l5ZjlfF0vqQ1cvAvLb-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="qSXccvpsXnpCGZwrg0YW-3" target="yn-238SD3azRqZ-1-yca-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSXccvpsXnpCGZwrg0YW-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Preprocessing&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yn-238SD3azRqZ-1-yca-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="yn-238SD3azRqZ-1-yca-4" target="yn-238SD3azRqZ-1-yca-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yn-238SD3azRqZ-1-yca-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Train Model&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yn-238SD3azRqZ-1-yca-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="yn-238SD3azRqZ-1-yca-6" target="yn-238SD3azRqZ-1-yca-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn-238SD3azRqZ-1-yca-6" target="irhjJahr-Im-_dVMvANn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="480" />
+              <mxPoint x="550" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yn-238SD3azRqZ-1-yca-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Model Validation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yn-238SD3azRqZ-1-yca-7" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="yn-238SD3azRqZ-1-yca-8" target="irhjJahr-Im-_dVMvANn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yn-238SD3azRqZ-1-yca-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Updating a&amp;nbsp;&lt;br&gt;JSON Manifest file&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="irhjJahr-Im-_dVMvANn-2" target="3xwXBq9qY0tOSn8t2zBk-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="irhjJahr-Im-_dVMvANn-2" target="3xwXBq9qY0tOSn8t2zBk-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Validation&lt;br&gt;using Quicksight&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="irhjJahr-Im-_dVMvANn-4" target="3xwXBq9qY0tOSn8t2zBk-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Forecast&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1080" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1080" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="irhjJahr-Im-_dVMvANn-8" target="irhjJahr-Im-_dVMvANn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Final Result&lt;br&gt;on Quicksight&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1400" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;END&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1560" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-11" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quicksight;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-12" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quicksight;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irhjJahr-Im-_dVMvANn-21" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-1">
+          <mxGeometry width="239.99999999999997" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-11" value="Preprocessing으로부터&lt;br&gt;Train, Test URI을 받는다.&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-1">
+          <mxGeometry x="4.319999999999999" width="235.67999999999998" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-17" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="440" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-20">
+          <mxGeometry width="239.99999999999997" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-22" value="&lt;b&gt;Input&lt;/b&gt;: trained model uri&lt;br&gt;&lt;b&gt;True &lt;/b&gt;→&amp;nbsp;Model Registry에 모델 등록하고 Model Version ARN을 다음 스텝으로 넘김&lt;br&gt;&lt;b&gt;False&lt;/b&gt;→ Model Registry에&amp;nbsp;등록 안하고 Forecast 스텝으로 넘어감." style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-20">
+          <mxGeometry x="4.319999999999999" width="235.67999999999998" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="600" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-23">
+          <mxGeometry width="239.99999999999997" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-25" value="S3의 USECASE버킷/manifest-data/ &lt;b&gt;validation.json&lt;/b&gt; 파일 업로드&amp;nbsp;&lt;br&gt;&lt;br&gt;※ 가장 낮은 인스턴스로 구성" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-23">
+          <mxGeometry x="4.319999999999999" width="235.67999999999998" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="760" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-26">
+          <mxGeometry width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-28" value="&lt;b&gt;Approve&amp;nbsp;&lt;/b&gt;→ Updating Model Status를 수행하는 Lambda 실행&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Reject&amp;nbsp;&lt;/b&gt;→&amp;nbsp;Pending 모델 중 최신 버전의 모델의 Status를&amp;nbsp;&lt;b&gt;Reject&lt;/b&gt;로 변경 후 Forecast로 넘김" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-26">
+          <mxGeometry x="4.32" width="235.67999999999998" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="920" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-29">
+          <mxGeometry width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-31" value="Lambda&amp;nbsp;URL인, HTTP(S) 엔드포인트를 이용하여 호출함.&lt;br&gt;역할:Model Rejestry 내&amp;nbsp;&lt;b&gt;Pending &lt;/b&gt;모델 중 최신 버전의 모델의 Status를&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Approve 혹은 Reject&lt;/b&gt;로 변경" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-29">
+          <mxGeometry x="4.32" width="235.67999999999998" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="3xwXBq9qY0tOSn8t2zBk-36" target="irhjJahr-Im-_dVMvANn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-36" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Updating&lt;br&gt;Model Status&lt;br&gt;to &lt;b&gt;APPROVE&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="920" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-37" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="920" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-38" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="3xwXBq9qY0tOSn8t2zBk-40" target="irhjJahr-Im-_dVMvANn-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Updating a&amp;nbsp;&lt;br&gt;JSON Manifest file&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1240" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-41" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;container=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-48" value="Approve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="840" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="3xwXBq9qY0tOSn8t2zBk-53" target="irhjJahr-Im-_dVMvANn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-53" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Updating&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Model Status&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;to&amp;nbsp;&lt;b&gt;REJECT&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-54" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;container=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-56" value="Reject" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="1080" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-60" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-59">
+          <mxGeometry width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-61" value="Input: pd.concat([train + test])&lt;br&gt;Model Rejestry 내 &lt;b&gt;Approve&amp;nbsp;&lt;/b&gt;상태인&lt;br&gt;모델들 중 가장 최신버전의 모델을 가지고 와서 Prediction → result 파일의 URI를 다음 스텝으로 넘김" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-59">
+          <mxGeometry x="4.32" width="235.67999999999998" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-62" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="560" y="1240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-62">
+          <mxGeometry width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3xwXBq9qY0tOSn8t2zBk-64" value="S3의 USECASE버킷/manifest-data/ &lt;b&gt;prediction.json&lt;/b&gt; 파일 업로드&amp;nbsp;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;※ 가장 낮은 인스턴스로 구성" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="3xwXBq9qY0tOSn8t2zBk-62">
+          <mxGeometry x="4.32" width="235.67999999999998" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
